@@ -49,11 +49,11 @@ Download/clone this repository from: https://github.com/mikotian/OpenWeatherAuto
 
 A one time setup of geckodriver/chromedriver etc is needed. This can be done by downloading 
 
-chromedriver[https://chromedriver.storage.googleapis.com/index.html?path=2.42/] or 
+  for Google Chrome: chromedriver[https://chromedriver.storage.googleapis.com/index.html?path=2.42/] or 
 
-geckodriver[https://github.com/mozilla/geckodriver/releases]
+  for Firefox: geckodriver[https://github.com/mozilla/geckodriver/releases]
 
-and copying the exe over to any directory your PATH. I usually plonk it into the system32 directory on my windows machine(if security permits). 
+  and copying the exe over to any directory your PATH. I usually plonk it into the system32 directory on my windows machine(if security     permits). 
 
 This ensures that any PATH issues never come up.
 
