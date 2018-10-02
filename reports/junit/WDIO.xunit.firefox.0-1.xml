@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Open_Application_and_Search" timestamp="2018-10-02T17:38:48" time="24.098" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="d6f4f667d796203d2704bc9f259c203a"/>
+      <property name="suiteName" value="Open Application and Search"/>
+      <property name="capabilities" value="firefox"/>
+      <property name="file" value=".\test\specs\e2etest_2.js"/>
+    </properties>
+    <testcase classname="firefox.Open_Application_and_Search" name="searches_for_tardis" time="24.098">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/url - {"url":"https://openweathermap.org/"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/elements - {"using":"id","value":"nav-search"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"dfc49370-bd62-479c-8450-763da0ceb3ab"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/dfc49370-bd62-479c-8450-763da0ceb3ab/displayed - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element - {"using":"id","value":"nav-search"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"dfc49370-bd62-479c-8450-763da0ceb3ab"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/dfc49370-bd62-479c-8450-763da0ceb3ab/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/elements - {"using":"id","value":"q"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"7a6ecf89-ba31-441e-9669-444a00578d89"},{"element-6066-11e4-a52e-4f735466cecf":"bc22f546-8ddc-4bbf-bd9e-b80a4add029d"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/7a6ecf89-ba31-441e-9669-444a00578d89/enabled - {}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/bc22f546-8ddc-4bbf-bd9e-b80a4add029d/enabled - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/elements - {"using":"id","value":"q"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"7a6ecf89-ba31-441e-9669-444a00578d89"},{"element-6066-11e4-a52e-4f735466cecf":"bc22f546-8ddc-4bbf-bd9e-b80a4add029d"}],"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/7a6ecf89-ba31-441e-9669-444a00578d89/clear - {}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/bc22f546-8ddc-4bbf-bd9e-b80a4add029d/clear - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/bc22f546-8ddc-4bbf-bd9e-b80a4add029d/value - {"value":["t","a","r","d","i","s"],"text":"tardis"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/7a6ecf89-ba31-441e-9669-444a00578d89/value - {"value":["t","a","r","d","i","s"],"text":"tardis"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/elements - {"using":"css selector","value":".input-group-btn"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"6c5c8c92-7f65-46b5-95b0-e72ee0afe82a"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/6c5c8c92-7f65-46b5-95b0-e72ee0afe82a/enabled - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":true,"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element - {"using":"css selector","value":".input-group-btn"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":{"element-6066-11e4-a52e-4f735466cecf":"6c5c8c92-7f65-46b5-95b0-e72ee0afe82a"},"status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/6c5c8c92-7f65-46b5-95b0-e72ee0afe82a/click - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/title - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"Find - OpenWeatherMap","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/elements - {"using":"xpath","value":"//*[@id='forecast_list_ul']/div"}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":[{"element-6066-11e4-a52e-4f735466cecf":"fa2c46cf-957b-4e25-95ff-cc91d7150d48"}],"status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a/element/fa2c46cf-957b-4e25-95ff-cc91d7150d48/text - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":"×\nNot found","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/234d943e-0d40-4a22-b230-8d553925569a - {}
+RESULT: {"state":"success","sessionId":null,"class":"org.openqa.selenium.remote.Response","value":null,"status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+describe('Open Application and verify', function() {
+    it('searches for mumbai', function() {
+        browser.url('/');
+	browser.alertDismiss();
+	browser.waitForVisible('#nav-search');
+	browser.click('#nav-search');
+	browser.waitForEnabled('#q');
+        browser.setValue('#q', 'mumbai');
+	browser.waitForEnabled('.input-group-btn',3000);
+        browser.click('.input-group-btn');
+
+        var title = browser.getTitle();
+        console.log('Title is: ' + title);
+    });
+});
