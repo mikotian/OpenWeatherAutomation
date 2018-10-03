@@ -61,30 +61,30 @@ Open a nodejs command prompt and navigate to the working directory.
 
 Running the following command should install all the dependencies needed to get the automation to run:
 
-  npm install
+  **npm install**
 
 The major dependencies can be installed manually like this:
   
-  npm install wdio-firefox-profile-service --save-dev
+  **npm install wdio-firefox-profile-service --save-dev**
   
-  npm install webdriverio --save-dev
+  **npm install webdriverio --save-dev**
   
-  npm install wdio-selenium-standalone-service --save-dev
+  **npm install wdio-selenium-standalone-service --save-dev**
 
 To run the tests, the following manual steps have to be carried out:
 
 1. Launch the selenium server. This is a one time activity, unless one kills the server process.
    
-   On windows: java -jar <workingdir>\seleniumserver\selenium-server-standalone-3.14.0.jar
+   On windows: **java -jar <workingdir>\seleniumserver\selenium-server-standalone-3.14.0.jar**
    
-   On Linux: java -jar <workingdir>/seleniumserver/selenium-server-standalone-3.14.0.jar
+   On Linux: **java -jar <workingdir>/seleniumserver/selenium-server-standalone-3.14.0.jar**
    
    This will launch the server and will listen on 4444
 
 2. Launch the tests:
    
    Using a node.js command prompt navigate to <workingdirectory> and run the following command:
-   .\node_modules\.bin\wdio wdio.conf.js
+   **.\node_modules\.bin\wdio wdio.conf.js**
    
    This should run all the tests. The console will show a summary of test cases executed. Reports in junit and json format are generated inside the reports folder and screenshots are generated on error conditions and copied to errorshots.
   
