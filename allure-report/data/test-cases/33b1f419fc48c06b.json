@@ -1,0 +1,39 @@
+{
+  "uid" : "33b1f419fc48c06b",
+  "name" : "Convert_Celsius_to_Farhenheit_or_vice_versa",
+  "historyId" : "Get_Weather_Details:firefox.Get_Weather_Details#Convert_Celsius_to_Farhenheit_or_vice_versa",
+  "time" : {
+    "start" : 1539610865000,
+    "stop" : 1539610910434,
+    "duration" : 45434
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Get_Weather_Details"
+  }, {
+    "name" : "testClass",
+    "value" : "firefox.Get_Weather_Details"
+  }, {
+    "name" : "package",
+    "value" : "firefox.Get_Weather_Details"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33b1f419fc48c06b.json",
+  "parameterValues" : [ ]
+}

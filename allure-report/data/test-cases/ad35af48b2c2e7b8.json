@@ -1,0 +1,39 @@
+{
+  "uid" : "ad35af48b2c2e7b8",
+  "name" : "searches_for_tardis",
+  "historyId" : "Open_Application_and_Search:firefox.Open_Application_and_Search#searches_for_tardis",
+  "time" : {
+    "start" : 1539610781000,
+    "stop" : 1539610797393,
+    "duration" : 16393
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Open_Application_and_Search"
+  }, {
+    "name" : "testClass",
+    "value" : "firefox.Open_Application_and_Search"
+  }, {
+    "name" : "package",
+    "value" : "firefox.Open_Application_and_Search"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad35af48b2c2e7b8.json",
+  "parameterValues" : [ ]
+}

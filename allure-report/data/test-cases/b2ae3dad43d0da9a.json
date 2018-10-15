@@ -1,0 +1,39 @@
+{
+  "uid" : "b2ae3dad43d0da9a",
+  "name" : "Verifies_that_major_input_fields_exist_and_can_be_written_to_or_clicked",
+  "historyId" : "Open_Application_and_Verify:firefox.Open_Application_and_Verify#Verifies_that_major_input_fields_exist_and_can_be_written_to_or_clicked",
+  "time" : {
+    "start" : 1539610732000,
+    "stop" : 1539610761421,
+    "duration" : 29421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Open_Application_and_Verify"
+  }, {
+    "name" : "testClass",
+    "value" : "firefox.Open_Application_and_Verify"
+  }, {
+    "name" : "package",
+    "value" : "firefox.Open_Application_and_Verify"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2ae3dad43d0da9a.json",
+  "parameterValues" : [ ]
+}

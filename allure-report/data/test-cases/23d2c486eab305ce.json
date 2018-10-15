@@ -1,0 +1,39 @@
+{
+  "uid" : "23d2c486eab305ce",
+  "name" : "searches_for_mumbai",
+  "historyId" : "Open_Application_and_Search_for_Weather:firefox.Open_Application_and_Search_for_Weather#searches_for_mumbai",
+  "time" : {
+    "start" : 1539610815000,
+    "stop" : 1539610846706,
+    "duration" : 31706
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "junit"
+  }, {
+    "name" : "suite",
+    "value" : "Open_Application_and_Search_for_Weather"
+  }, {
+    "name" : "testClass",
+    "value" : "firefox.Open_Application_and_Search_for_Weather"
+  }, {
+    "name" : "package",
+    "value" : "firefox.Open_Application_and_Search_for_Weather"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23d2c486eab305ce.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+    "state": "success",
+    "sessionId": null,
+    "class": "org.openqa.selenium.remote.Response",
+    "value": {
+        "element-6066-11e4-a52e-4f735466cecf": "9b718468-4473-4747-9c75-1f5671aa86c4"
+    },
+    "status": 0
+}

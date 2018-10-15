@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Open_Application_and_Verify",
+    "children" : [ {
+      "name" : "Verifies_that_major_input_fields_exist_and_can_be_written_to_or_clicked",
+      "uid" : "b2ae3dad43d0da9a",
+      "parentUid" : "42fc7cef60f7b07663fe62f0161e2968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539610732000,
+        "stop" : 1539610761421,
+        "duration" : 29421
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "42fc7cef60f7b07663fe62f0161e2968"
+  }, {
+    "name" : "Open_Application_and_Search",
+    "children" : [ {
+      "name" : "searches_for_tardis",
+      "uid" : "ad35af48b2c2e7b8",
+      "parentUid" : "d04c0f05a4c73fad543ba9974a8014d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539610781000,
+        "stop" : 1539610797393,
+        "duration" : 16393
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d04c0f05a4c73fad543ba9974a8014d1"
+  }, {
+    "name" : "Open_Application_and_Search_for_Weather",
+    "children" : [ {
+      "name" : "searches_for_mumbai",
+      "uid" : "23d2c486eab305ce",
+      "parentUid" : "0dd9a2d3ddd0bf8554927a72f27892c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539610815000,
+        "stop" : 1539610846706,
+        "duration" : 31706
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0dd9a2d3ddd0bf8554927a72f27892c3"
+  }, {
+    "name" : "Get_Weather_Details",
+    "children" : [ {
+      "name" : "Convert_Celsius_to_Farhenheit_or_vice_versa",
+      "uid" : "33b1f419fc48c06b",
+      "parentUid" : "bc4177b9c8600f3c3ed02efe2a105d71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539610865000,
+        "stop" : 1539610910434,
+        "duration" : 45434
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bc4177b9c8600f3c3ed02efe2a105d71"
+  }, {
+    "name" : "Open_Application_and_Verify_Using_Page_Objects",
+    "children" : [ {
+      "name" : "Verifies_that_major_input_fields_exist_and_can_be_written_to_or_clicked_Using_Page_Objects",
+      "uid" : "5af72607e1bdee2d",
+      "parentUid" : "d124de5e6a43f4382e552f2701f0499c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1539610929000,
+        "stop" : 1539610972021,
+        "duration" : 43021
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d124de5e6a43f4382e552f2701f0499c"
+  } ]
+}
