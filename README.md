@@ -1,6 +1,6 @@
-#OpenWeatherAutomation
+# OpenWeatherAutomation
 
-######Sample Test Automation using WebDriver.io
+###### Sample Test Automation using WebDriver.io
 
 This repository contains 5 test cases for OpenWeatherMap.org
 
@@ -14,7 +14,7 @@ Test 4: Navigates to OpenWeatherMap.org and verifies units conversion (F->C or C
 
 Test 5: Test 1 demonstrated using PageObject Model
 
-####Pre Requisites:
+#### Pre Requisites:
 
 **Node.js** : Install Node.js from: [here](https://nodejs.org/en/)
 
@@ -50,7 +50,7 @@ or if you do not have sudoer access:
 
 `export PATH=$PATH:/path-to-extracted-file/geckodriver`
 
-###Steps to run the automation:
+### Steps to run the automation:
 
 Download the repository in the following URL:  
 Download [OpenWeatherAutomation](https://github.com/mikotian/OpenWeatherAutomation/archive/master.zip)
@@ -88,5 +88,3 @@ Reports in junit and json format are generated inside the reports folder and scr
 To generate reports, execute the following batch/shell file:
 
 `generate_reports.bat` *or* `generate_reports.sh`
-
-
